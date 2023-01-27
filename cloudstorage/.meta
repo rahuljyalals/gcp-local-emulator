@@ -1,0 +1,88 @@
+{
+  "buckets": {
+    "product": {
+      "kind": "storage#bucket",
+      "id": "product",
+      "selfLink": "/storage/v1/b/product",
+      "projectNumber": "1234",
+      "name": "product",
+      "timeCreated": "2023-01-24T13:06:52.179105Z",
+      "updated": "2023-01-24T13:06:52.179105Z",
+      "metageneration": "1",
+      "iamConfiguration": {
+        "bucketPolicyOnly": {
+          "enabled": false
+        },
+        "uniformBucketLevelAccess": {
+          "enabled": false
+        }
+      },
+      "location": "US",
+      "locationType": "multi-region",
+      "storageClass": "STANDARD",
+      "etag": "CAE="
+    }
+  },
+  "objects": {
+    "product": {
+      "test.csv": {
+        "kind": "storage#object",
+        "id": "product/test.csv/1674566037",
+        "selfLink": "/storage/v1/b/product/o/test.csv",
+        "name": "test.csv",
+        "bucket": "product",
+        "generation": "1674566037",
+        "metageneration": "2",
+        "contentType": "text/csv",
+        "timeCreated": "2023-01-24T13:13:57.299912Z",
+        "updated": "2023-01-24T13:13:57.299912Z",
+        "storageClass": "STANDARD",
+        "timeStorageClassUpdated": "2023-01-24T13:13:57.299912Z",
+        "size": "375",
+        "md5Hash": "xtlky4nLKUToHfcJDE+JHQ==",
+        "mediaLink": "http://0.0.0.0:9023/download/storage/v1/b/product/o/test.csv?generation=1674566037&alt=media",
+        "crc32c": "CQ540w==",
+        "etag": "xtlky4nLKUToHfcJDE+JHQ=="
+      },
+      "nike/test.csv": {
+        "kind": "storage#object",
+        "id": "product/nike/test.csv/1674566131",
+        "selfLink": "/storage/v1/b/product/o/nike/test.csv",
+        "name": "nike/test.csv",
+        "bucket": "product",
+        "generation": "1674566131",
+        "metageneration": "2",
+        "contentType": "text/csv",
+        "timeCreated": "2023-01-24T13:15:31.441080Z",
+        "updated": "2023-01-24T13:15:31.441080Z",
+        "storageClass": "STANDARD",
+        "timeStorageClassUpdated": "2023-01-24T13:15:31.441080Z",
+        "size": "375",
+        "md5Hash": "xtlky4nLKUToHfcJDE+JHQ==",
+        "mediaLink": "http://0.0.0.0:9023/download/storage/v1/b/product/o/nike/test.csv?generation=1674566131&alt=media",
+        "crc32c": "CQ540w==",
+        "etag": "xtlky4nLKUToHfcJDE+JHQ=="
+      },
+      "adidas/my.png": {
+        "kind": "storage#object",
+        "id": "product/adidas/my.png/1674566227",
+        "selfLink": "/storage/v1/b/product/o/adidas/my.png",
+        "name": "adidas/my.png",
+        "bucket": "product",
+        "generation": "1674566227",
+        "metageneration": "2",
+        "contentType": "image/png",
+        "timeCreated": "2023-01-24T13:17:07.576114Z",
+        "updated": "2023-01-24T13:17:07.576114Z",
+        "storageClass": "STANDARD",
+        "timeStorageClassUpdated": "2023-01-24T13:17:07.576114Z",
+        "size": "99711",
+        "md5Hash": "ZnToCvb8i1bGYHvDCHSRYg==",
+        "mediaLink": "http://0.0.0.0:9023/download/storage/v1/b/product/o/adidas/my.png?generation=1674566227&alt=media",
+        "crc32c": "1OBTxA==",
+        "etag": "ZnToCvb8i1bGYHvDCHSRYg=="
+      }
+    }
+  },
+  "resumable": {}
+}

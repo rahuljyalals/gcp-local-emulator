@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  gcp-storage-emulator:
+    image: oittaa/gcp-storage-emulator
+    restart: always
+    environment:
+      - PORT=9023
+    ports:
+      - 9023:9023
+    volumes:
+      - ./cloudstorage:/storage
